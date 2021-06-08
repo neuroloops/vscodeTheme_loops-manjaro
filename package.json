@@ -1,0 +1,21 @@
+{
+  "name": "loops-manjaro",
+  "displayName": "Loops@Manjaro",
+  "description": "tokyo night theme base with a manjaro flavor",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.56.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "loops@manjaro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/loops@manjaro-color-theme.json"
+      }
+    ]
+  }
+}
