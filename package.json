@@ -1,40 +1,37 @@
 {
-	"name": "loops-manjaro",
-	"displayName": "Loops@Manjaro",
-	"description": "tokyo night theme base with a manjaro flavor",
-	"version": "0.0.4",
-	"publisher": "LudoLoops",
-	"author": {
-		"name": "LudoLoops"
-	},
-	"engines": {
-		"vscode": "^1.56.0"
-	},
-	"categories": [
-		"Themes"
-	],
-	"keywords": [
-		"teal"
-	],
-	"contributes": {
-		"themes": [
-			{
-				"label": "loops@manjaro",
-				"uiTheme": "vs-dark",
-				"path": "./themes/loops@manjaro-color-theme.json"
-			}
-		]
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/neuroloops/vscodeTheme_loops-manjaro"
-	},
-	"__metadata": {
-		"id": "669cee8f-02dc-4bb6-876f-69391c94870b",
-		"publisherDisplayName": "LudoLoops",
-		"publisherId": "e9116664-ab03-4e34-a2ab-f4a37bd27c3b"
-	},
-	"dependencies": {
-		"ci": "^2.1.1"
-	}
+  "name": "loops-manjaro",
+  "displayName": "Loops@Manjaro",
+  "description": "tokyo night theme base with a manjaro flavor",
+  "version": "0.0.4",
+  "publisher": "LudoLoops",
+  "author": {
+    "name": "LudoLoops"
+  },
+  "engines": {
+    "vscode": "^1.56.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "teal"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "loops@manjaro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/loops@manjaro-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neuroloops/vscodeTheme_loops-manjaro"
+  },
+  "__metadata": {
+    "id": "669cee8f-02dc-4bb6-876f-69391c94870b",
+    "publisherDisplayName": "LudoLoops",
+    "publisherId": "e9116664-ab03-4e34-a2ab-f4a37bd27c3b"
+  }
 }

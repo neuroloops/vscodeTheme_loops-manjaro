@@ -2,7 +2,3 @@
 # yarn lockfile v1
 
 
-ci@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/ci/-/ci-2.1.1.tgz#06ae3f78c40e451a08ce05be3879fe9257bb275c"
-  integrity sha512-StBCU1G9zbhgVBqvslvOpT601zme9YfyZaUSjgXCtfnIynPuDBHX85WwnXv5cnh74bYo8S3xfPpI41yk1jZmRw==
