@@ -1,12 +1,18 @@
-# README
+# Loops@Manjaro
 
 ## Theme
 
-TokyoNight theme customize to have a manjaro taste
+Tokyo Night theme customize to have a manjaro taste
+
+Screenshots
+
+### Jsx
+
+![jsx](/home/loops/.vscode/extensions/loops-manjaro/images/jsx.png)
 
 ### For more information
 
-- [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
+- [Tokyo Night](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night)
 - [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
