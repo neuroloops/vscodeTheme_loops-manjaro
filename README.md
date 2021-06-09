@@ -8,7 +8,7 @@ Screenshots
 
 ### Jsx
 
-![jsx](/home/loops/.vscode/extensions/loops-manjaro/images/jsx.png)
+![jsx](./images/jsx.png)
 
 ### For more information
 
