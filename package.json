@@ -3,6 +3,10 @@
   "displayName": "Loops@Manjaro",
   "description": "tokyo night theme base with a manjaro flavor",
   "version": "0.0.1",
+  "publisher": "LudoLoops",
+  "author": {
+    "name": "LudoLoops"
+  },
   "engines": {
     "vscode": "^1.56.0"
   },
@@ -17,5 +21,9 @@
         "path": "./themes/loops@manjaro-color-theme.json"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neuroloops/vscodeTheme_loops-manjaro"
   }
 }
