@@ -33,5 +33,8 @@
 		"id": "669cee8f-02dc-4bb6-876f-69391c94870b",
 		"publisherDisplayName": "LudoLoops",
 		"publisherId": "e9116664-ab03-4e34-a2ab-f4a37bd27c3b"
+	},
+	"dependencies": {
+		"ci": "^2.1.1"
 	}
 }
