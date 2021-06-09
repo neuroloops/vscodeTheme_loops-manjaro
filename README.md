@@ -1,18 +1,18 @@
-# Loops@Manjaro
+# Loops@Manjaro vscode Theme
 
-## Theme
+## Description
 
-Tokyo Night theme customize to have a manjaro taste
+Tokyo Night theme a Manjaro taste
 
-Screenshots
+## Screenshots
 
-### Jsx
+![loops@Manjaro](./images/jsx+css+html.png)
 
-![jsx](./images/jsx.png)
+## Ressources:
 
-### For more information
+- [Font IBM plex](https://www.ibm.com/plex/)
+- [Icon pack](https://marketplace.visualstudio.com/items?itemName=davidbabel.vscode-simpler-icons)
 
 - [Tokyo Night](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night)
-- [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
