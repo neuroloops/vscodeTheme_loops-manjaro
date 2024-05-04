@@ -4,6 +4,7 @@
 	"description": "tokyo night theme base with a manjaro flavor",
 	"version": "1.0.1",
 	"publisher": "LudoLoops",
+	"icon": "icon.png",
 	"author": {
 		"name": "LudoLoops"
 	},
