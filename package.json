@@ -2,7 +2,7 @@
   "name": "loops-manjaro",
   "displayName": "Loops@Manjaro",
   "description": "tokyo night theme base with a manjaro flavor",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "publisher": "LudoLoops",
   "author": {
     "name": "LudoLoops"
@@ -14,7 +14,8 @@
     "Themes"
   ],
   "keywords": [
-    "teal"
+    "teal",
+    "tokyo night"
   ],
   "contributes": {
     "themes": [
@@ -22,6 +23,11 @@
         "label": "loops@manjaro",
         "uiTheme": "vs-dark",
         "path": "./themes/loops@manjaro-color-theme.json"
+      },
+      {
+        "label": "loops@manjaro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/loops@manjaro-moon-color-theme.json"
       }
     ]
   },
