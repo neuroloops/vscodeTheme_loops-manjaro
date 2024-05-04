@@ -4,6 +4,8 @@
 
 Tokyo Night theme a Manjaro taste
 
+with moon theme
+
 ## Screenshots
 
 ![loops@Manjaro](./images/jsx+css+html.png)

@@ -1,43 +1,52 @@
 {
-  "name": "loops-manjaro",
-  "displayName": "Loops@Manjaro",
-  "description": "tokyo night theme base with a manjaro flavor",
-  "version": "1.0.0",
-  "publisher": "LudoLoops",
-  "author": {
-    "name": "LudoLoops"
-  },
-  "engines": {
-    "vscode": "^1.56.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "teal",
-    "tokyo night"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "loops@manjaro",
-        "uiTheme": "vs-dark",
-        "path": "./themes/loops@manjaro-color-theme.json"
-      },
-      {
-        "label": "loops@manjaro moon",
-        "uiTheme": "vs-dark",
-        "path": "./themes/loops@manjaro-moon-color-theme.json"
-      }
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/neuroloops/vscodeTheme_loops-manjaro"
-  },
-  "__metadata": {
-    "id": "669cee8f-02dc-4bb6-876f-69391c94870b",
-    "publisherDisplayName": "LudoLoops",
-    "publisherId": "e9116664-ab03-4e34-a2ab-f4a37bd27c3b"
-  }
+	"name": "loops-manjaro",
+	"displayName": "Loops@Manjaro",
+	"description": "tokyo night theme base with a manjaro flavor",
+	"version": "1.0.1",
+	"publisher": "LudoLoops",
+	"author": {
+		"name": "LudoLoops"
+	},
+	"engines": {
+		"vscode": "^1.56.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"teal",
+		"tokyo night"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "loops@manjaro",
+				"uiTheme": "vs-dark",
+				"path": "./themes/loops@manjaro-color-theme.json"
+			},
+			{
+				"label": "loops@manjaro moon",
+				"uiTheme": "vs-dark",
+				"path": "./themes/loops@manjaro-moon-color-theme.json"
+			}
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/neuroloops/vscodeTheme_loops-manjaro"
+	},
+	"__metadata": {
+		"id": "669cee8f-02dc-4bb6-876f-69391c94870b",
+		"publisherDisplayName": "LudoLoops",
+		"publisherId": "e9116664-ab03-4e34-a2ab-f4a37bd27c3b",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": true,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1714834974565,
+		"pinned": false,
+		"preRelease": false,
+		"source": "gallery"
+	}
 }

@@ -65,6 +65,7 @@
     "editor.stackFrameHighlightBackground": "#e2bd3a20",
     "editor.wordHighlightBackground": "#515c7e33",
     "editor.wordHighlightStrongBackground": "#515c7e44",
+    // "editorBracketHighlight.unexpectedBracket.foreground": "#c53b53",
     "editorBracketMatch.background": "#16161e",
     "editorBracketMatch.border": "#42465d",
     "editorCodeLens.foreground": "#484f70",
