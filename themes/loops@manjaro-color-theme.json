@@ -169,6 +169,8 @@
     "menu.background": "#16161e",
     "menu.border": "#101014",
     "menu.foreground": "#787c99",
+    "menu.selectionForeground": "#0DB9D7",
+    "menu.selectionBackground": "#1a1a23",
     "menu.separatorBackground": "#101014",
     "menubar.selectionBackground": "#1e202e",
     "menubar.selectionBorder": "#1b1e2e",
@@ -298,7 +300,7 @@
         "tag.decorator.js entity.name.tag.js",
         "tag.decorator.js punctuation.definition.tag.js",
         "storage.modifier",
-        "keyword.control.import.ts",
+        "keyword.control.import",
         "storage.modifier.async.ts"
       ],
       "settings": {
@@ -404,6 +406,8 @@
     },
     {
       "scope": [
+        "keyword.control.from.ts",
+        "keyword.control.from.js",
         "meta.var.expr storage.type",
         "storage.modifier",
         "keyword.control.at-rule.include punctuation.definition.keyword",
@@ -416,11 +420,24 @@
         "meta.at-rule.mixin keyword.control.at-rule.mixin",
         "meta.at-rule.function keyword.control.at-rule.function",
         "keyword.control punctuation.definition.keyword",
-        "keyword.control.import.ts"
+        "keyword.control.import.ts",
+        "keyword.control.import.js"
       ],
       "settings": {
-        "foreground": "#9D7CD8"
+        "foreground": "#A29BFE"
       }
+    },
+    {
+      "scope": [
+        "punctuation.definition.template",
+        "support.class.component",
+        "variable.other.readwrite.alias",
+        "variable.other.readwrite.alias.ts",
+        "variable.other.readwrite.alias.js"
+      ],
+      "settings": {
+        "foreground": "#86E1FC",
+      },
     },
     {
       "scope": [
@@ -430,8 +447,6 @@
         "support.constant.handlebars",
         "punctuation.section.tag.twig",
         "keyword.control.import",
-        "keyword.control.export",
-        "keyword.control.from",
         "keyword.control.default",
         "meta.import keyword.other",
         "keyword.other.DML",
@@ -444,7 +459,7 @@
         "storage.modifier.async.ts"
       ],
       "settings": {
-        "foreground": "#7DCFFF"
+        "foreground": "#0DB9D7"
       }
     },
     {
@@ -506,8 +521,6 @@
         "constant.character",
         "constant.escape",
         "keyword.other.unit",
-        "meta.definition.variable variable.other.constant",
-        "meta.definition.variable variable.other.readwrite",
         "variable.other.declaration",
         "entity.other.inherited-class",
         "meta.at-rule.mixin keyword.control.at-rule.mixin",
@@ -652,7 +665,7 @@
         "support.type.map.key"
       ],
       "settings": {
-        "foreground": "#7AA2F7"
+        "foreground": "#0DB9D7"
       }
     },
     {
@@ -689,7 +702,7 @@
         "token.info-token"
       ],
       "settings": {
-        "foreground": "#0DB9D7"
+        "foreground": "#C0CAF5"
       }
     },
     {
@@ -1125,9 +1138,11 @@
     },
     {
       "scope": [
-        "variable.other.constant.ts",
+        "meta.definition.variable variable.other.readwrite",
+        "meta.definition.variable variable.other.constant",
         "variable.other.object.ts",
-        "variable.other.readwrite.ts"
+        "variable.other.readwrite.ts",
+        "variable.other.readwrite.js"
       ],
       "settings": {
         "foreground": "#00CECB"
@@ -1136,6 +1151,7 @@
     {
       "scope": [
         "keyword.control.export.ts",
+        "keyword.control.export.js",
         "keyword.control.flow.ts",
         "keyword.control.import.ts",
         "storage.type.ts"
@@ -1147,19 +1163,12 @@
     },
     {
       "scope": [
-        "variable.other.readwrite.js"
-      ],
-      "settings": {
-        "foreground": "#73DACA"
-      }
-    },
-    {
-      "scope": [
         "keyword.control.conditional.ts",
-        "keyword.control.trycatch.ts"
+        "keyword.control.trycatch.ts",
+        "keyword.control.conditional.svelte"
       ],
       "settings": {
-        "foreground": "#FED600"
+        "foreground": "#FCA7EA"
       }
     },
     {
@@ -1170,7 +1179,7 @@
         "comment.block.documentation.ts"
       ],
       "settings": {
-        "foreground": "#7390AA",
+        "foreground": "#565F89",
         "fontStyle": ""
       }
     },
@@ -1192,6 +1201,27 @@
       ],
       "settings": {
         "foreground": "#7AA2F7"
+      }
+    },
+    {
+      "scope": [
+        "comment.line.double-slash",
+        "entity.other.attribute-name",
+        "keyword.control.from",
+        "keyword.control.import",
+        "keyword.control.conditional.js",
+        "keyword.control.conditional",
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      },
+    },
+    {
+      "scope": [
+        "entity.name.function",
+      ],
+      "settings": {
+        // "fontStyle": "bold"
       }
     },
   ]

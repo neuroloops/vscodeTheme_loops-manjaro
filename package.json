@@ -41,13 +41,11 @@
 		"publisherDisplayName": "LudoLoops",
 		"publisherId": "e9116664-ab03-4e34-a2ab-f4a37bd27c3b",
 		"targetPlatform": "undefined",
-		"isApplicationScoped": false,
-		"updated": true,
+		"updated": false,
 		"isPreReleaseVersion": false,
 		"hasPreReleaseVersion": false,
-		"installedTimestamp": 1714834974565,
+		"installedTimestamp": 1714985835712,
 		"pinned": false,
-		"preRelease": false,
 		"source": "gallery"
 	}
 }
